@@ -3,10 +3,8 @@
 
 <head>
 	<meta charset="utf-8">
+	<title>Contact | Stuart Kushner</title>
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
-	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-	<meta name="viewport" content="width=device-width">
-	<title>Stuart Kushner's Portfolio - About</title>
 </head>
 
 <body>
@@ -17,67 +15,74 @@
 
 		<!-- Header -->
 
-		<div id="header">
+		<header id="masthead">
 			<div class="container">
-				<div class="name-background">
-					<div class="name">Stuart Kushner</div>
-				</div>
-				<nav class="nav">
+				<a href="index.html" id="logo">Stuart Kushner</a>
+				<nav>
 					<ul>
 						<li><a href="index.html">About</a></li>
 						<li><a href="portfolio.html">Portfolio</a></li>
-						<li><a href="#">Contact</a></li>
+						<li><a href="contact.html">Contact</a></li>
 					</ul>
 				</nav>
 			</div>
-		</div>
+		</header>
 
-		<!-- Content -->
+		<!-- End of header -->
 
-		<div id="content">
+		<main class="container">
 
-			<!-- Contact Information -->
+			<!-- Start of Main Section / Contact Forms -->
+			<section class="main-section">
+				<h1>Contact</h1>
+				<form id="contact-form">
+					<ul>
+						<li>
+							<label for="name">Name</label>
+							<input type="text" id="name" name="name" placeholder="Insert Name Here" required="required">
+						</li>
+					</ul>
+					<ul>
+						<li>
+							<label for="email">Email</label>
+							<input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
+						</li>
+					</ul>
+					<ul>
+						<li>
+							<label for="message">Message</label>
+							<textarea id="message" name="message" required="required"></textarea>
+						</li>
+					</ul>
+					<input type="submit">
+				</form>
+			</section>
 
-			<div class="contact">
+			<!-- End of Main Section / Contact Forms -->
 
-				<h3 class="contact-title">Contact</h3>
+			<!-- Start of Side Bar -->
+			<section class="sidebar">
+				<div id="connect">
+					<h2>Connect With Me</h2>
+					<ul>
+						<li><a href="#"><img src="assets/images/github-128.png" alt="Github"></a></li>
+						<li><a href="#"><img src="assets/images/linkedin-128.png" alt="Linkedin"></a></li>
+						<li><a href="#"><img src="assets/images/stackoverflow-128.png" alt="Stack Overflow"></a></li>
+					</ul>
+				</div>
+			</section>
+			<!-- End of Side Bar -->
 
-					<form action="/action_page.php">
-					
-						<label for="contact-name">Name</label>
-						<input type="text" id="person-name" name="firstandlastname" placeholder="Enter Your First and Last Name">
-
-						<label for="email">Email</label>
-						<input type="text" id="person-email" name="emailaddress" placeholder="Enter Your Email Address">
-
-						<label for="message">Message</label>
-						<textarea id="message" name="message" style="height:200px"></textarea>
-
-						<input type="submit" name="Submit">
-
-					</form>
-
-			</div>
-
-			<!-- Sidebar -->
-
-			<div class="sidebar">
-				<h2 class="connect">Connect With Me</h2>
-				<ul class="social-media">
-					<li><a href="https://github.com/StuKushner" target="_blank"><img src="assets/images/Github_Image.png" alt="github"></a></li>
-					<li><a href="https://www.linkedin.com/in/stuart-kushner-81244979/" target="_blank"><img src="assets/images/LinkedIn_Image.png" alt="linkedin"></a></li>
-					<li><a href="https://stackoverflow.com/users/8732820/stuart-kushner" target="_blank"><img src="assets/images/Stack_Overflow_Image.png" alt="stackoverflow"></a></li>
-				</ul>
-			</div>
-		</div>
+		</main>
+		<div class="push"></div>
+	</div>
 
 		<!-- Footer -->
-
-		<div id="footer">
-			<p class="Copyright">&copy; Copyright 2017 Stuart Kushner</p>
-		</div>
-
-	</div>
+		<footer>
+			<div class="container">
+				&copy; Copyright 2017 Stuart Kushner
+			</div>
+		</footer>
 
 </body>
 </html>
