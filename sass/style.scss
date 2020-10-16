@@ -174,24 +174,16 @@ h1 {
     }
 }
 
-/* Twitter */
-.icon-twitter {color: #00a0d1}
-.icon-twitter:hover {background:#00a0d1}
-/* Instagram */
-.icon-instagram {color: #634d40}
-.icon-instagram:hover {background: #634d40}
 /* Facebook */
 .icon-facebook {color: #3b5998}
 .icon-facebook:hover {background: #3b5998}
-/* Twitter */
-.icon-google-plus {color: #db4a39}
-.icon-google-plus:hover {background: #db4a39}
-/* Twitter */
-.icon-dribbble {color: #ea4c89}
-.icon-dribbble:hover {background: #ea4c89}
-/* Twitter */
-.icon-youtube {color: #c4302b}
-.icon-youtube:hover {background: #c4302b}
+/* Codepen */
+.icon-codepen {color: #000000}
+.icon-codepen:hover {background: #000000}
+/* Linkedin */
+.icon-linkedin {color: #0e76a8}
+.icon-linkedin:hover {background: #0e76a8}
+
 
 // Icon fonts
 @font-face {
@@ -205,11 +197,8 @@ h1 {
     font-style: normal;
 }
 .icon-facebook:before,
-.icon-twitter:before,
-.icon-instagram:before,
-.icon-google-plus:before,
-.icon-youtube:before,
-.icon-dribbble:before {
+.icon-linkedin:before,
+.icon-codepen:before {
     font-family: 'icomoon';
     speak: none;
     font-style: normal;
@@ -220,18 +209,9 @@ h1 {
 .icon-facebook:before {
     content: "\e000";
 }
-.icon-twitter:before {
+.icon-linkedin:before {
     content: "\e001";
 }
-.icon-instagram:before {
+.icon-codepen:before {
     content: "\e002";
-}
-.icon-google-plus:before {
-    content: "\e003";
-}
-.icon-youtube:before {
-    content: "\e004";
-}
-.icon-dribbble:before {
-    content: "\e005";
 }

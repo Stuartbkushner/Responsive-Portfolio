@@ -275,70 +275,37 @@ h1 {
   text-overflow: ellipsis;
 }
 
-/* Twitter */
-/* line 178, ../sass/style.scss */
-.icon-twitter {
-  color: #00a0d1;
-}
-
-/* line 179, ../sass/style.scss */
-.icon-twitter:hover {
-  background: #00a0d1;
-}
-
-/* Instagram */
-/* line 181, ../sass/style.scss */
-.icon-instagram {
-  color: #634d40;
-}
-
-/* line 182, ../sass/style.scss */
-.icon-instagram:hover {
-  background: #634d40;
-}
-
 /* Facebook */
-/* line 184, ../sass/style.scss */
+/* line 178, ../sass/style.scss */
 .icon-facebook {
   color: #3b5998;
 }
 
-/* line 185, ../sass/style.scss */
+/* line 179, ../sass/style.scss */
 .icon-facebook:hover {
   background: #3b5998;
 }
 
-/* Twitter */
-/* line 187, ../sass/style.scss */
-.icon-google-plus {
-  color: #db4a39;
+/* Codepen */
+/* line 181, ../sass/style.scss */
+.icon-codepen {
+  color: #000000;
 }
 
-/* line 188, ../sass/style.scss */
-.icon-google-plus:hover {
-  background: #db4a39;
+/* line 182, ../sass/style.scss */
+.icon-codepen:hover {
+  background: #000000;
 }
 
-/* Twitter */
-/* line 190, ../sass/style.scss */
-.icon-dribbble {
-  color: #ea4c89;
+/* Linkedin */
+/* line 184, ../sass/style.scss */
+.icon-linkedin {
+  color: #0e76a8;
 }
 
-/* line 191, ../sass/style.scss */
-.icon-dribbble:hover {
-  background: #ea4c89;
-}
-
-/* Twitter */
-/* line 193, ../sass/style.scss */
-.icon-youtube {
-  color: #c4302b;
-}
-
-/* line 194, ../sass/style.scss */
-.icon-youtube:hover {
-  background: #c4302b;
+/* line 185, ../sass/style.scss */
+.icon-linkedin:hover {
+  background: #0e76a8;
 }
 
 @font-face {
@@ -348,13 +315,10 @@ h1 {
   font-weight: normal;
   font-style: normal;
 }
-/* line 207, ../sass/style.scss */
+/* line 199, ../sass/style.scss */
 .icon-facebook:before,
-.icon-twitter:before,
-.icon-instagram:before,
-.icon-google-plus:before,
-.icon-youtube:before,
-.icon-dribbble:before {
+.icon-linkedin:before,
+.icon-codepen:before {
   font-family: 'icomoon';
   speak: none;
   font-style: normal;
@@ -363,32 +327,17 @@ h1 {
   -webkit-font-smoothing: antialiased;
 }
 
-/* line 220, ../sass/style.scss */
+/* line 209, ../sass/style.scss */
 .icon-facebook:before {
   content: "\e000";
 }
 
-/* line 223, ../sass/style.scss */
-.icon-twitter:before {
+/* line 212, ../sass/style.scss */
+.icon-linkedin:before {
   content: "\e001";
 }
 
-/* line 226, ../sass/style.scss */
-.icon-instagram:before {
+/* line 215, ../sass/style.scss */
+.icon-codepen:before {
   content: "\e002";
-}
-
-/* line 229, ../sass/style.scss */
-.icon-google-plus:before {
-  content: "\e003";
-}
-
-/* line 232, ../sass/style.scss */
-.icon-youtube:before {
-  content: "\e004";
-}
-
-/* line 235, ../sass/style.scss */
-.icon-dribbble:before {
-  content: "\e005";
 }
