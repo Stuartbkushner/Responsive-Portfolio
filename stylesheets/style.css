@@ -65,5 +65,43 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 
 /* line 4, ../sass/style.scss */
 body {
+  text-align: center;
+  font: 1em/1.5 Georgia, serif;
   color: #333;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+h1 {
+  font-family: Bitter, Georgia, serif;
+  font-size: 2.25em;
+  padding: 0 1em;
+}
+
+.header {
+  padding: 10em 0 14em;
+}
+
+.header h1 {
+  font-style: italic;
+}
+
+.avatar {
+  -webkit-box-shadow: 0 0 0px 3px white, 0 0 0 4px #cccccc, 0 4px 6px #333333;
+  -moz-box-shadow: 0 0 0px 3px white, 0 0 0 4px #cccccc, 0 4px 6px #333333;
+  box-shadow: 0 0 0px 3px white, 0 0 0 4px #cccccc, 0 4px 6px #333333;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+  border-radius: 50px;
+  width: 100px;
+  height: 100px;
 }
